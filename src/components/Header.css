@@ -1,0 +1,40 @@
+/* src/components/Header.css */  
+.header {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 20px;  
+    background-color: #f4f4f9;  
+}  
+
+.menu {  
+    position: relative;  
+}  
+
+.display-button {  
+    cursor: pointer;  
+    font-weight: bold;   
+}  
+
+.dropdown {  
+    position: absolute;  
+    background: white;  
+    border: 1px solid #ccc;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    padding: 10px;  
+    z-index: 1;  
+}  
+
+.grouping, .ordering {  
+    margin-bottom: 15px;  
+}  
+
+label {  
+    display: block;  
+    font-weight: bold;  
+}  
+
+select {  
+    width: 100%;  
+    padding: 5px;  
+    margin-top: 5px;  
+}
